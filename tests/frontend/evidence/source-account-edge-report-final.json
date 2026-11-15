@@ -1,0 +1,13 @@
+{
+  "run": "final",
+  "errors": [],
+  "external": [],
+  "blockedStorageAndNoOpenRedirect": true,
+  "whitespacePasswordNotTrimmed": true,
+  "touchEyeWorks": true,
+  "rapidModeChangesClearSecrets": true,
+  "allMobilePanelsNoOverflow": true,
+  "rapidOrderStates": true,
+  "keyboardAndNavigationClearSecrets": true,
+  "mobileAccountRoute": true
+}

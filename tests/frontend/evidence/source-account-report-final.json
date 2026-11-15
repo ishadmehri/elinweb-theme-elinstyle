@@ -1,0 +1,73 @@
+{
+  "run": "final",
+  "modes": [
+    {
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "validation": true,
+      "usernameAcceptedWithoutAt": true,
+      "passwordVisibilityAndFocus": true,
+      "passwordUnmodifiedThenCleared": true,
+      "noCredentialPersistenceOrUrl": true,
+      "registrationRecoveryResetStates": true,
+      "pendingOrderImmutable": true,
+      "emptyErrorLoadingStates": true,
+      "accountNavigation": true,
+      "detailsDemoOnly": true,
+      "logoutDemoOnly": true,
+      "noOverflow": true
+    },
+    {
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "validation": true,
+      "usernameAcceptedWithoutAt": true,
+      "passwordVisibilityAndFocus": true,
+      "passwordUnmodifiedThenCleared": true,
+      "noCredentialPersistenceOrUrl": true,
+      "registrationRecoveryResetStates": true,
+      "pendingOrderImmutable": true,
+      "emptyErrorLoadingStates": true,
+      "accountNavigation": true,
+      "detailsDemoOnly": true,
+      "logoutDemoOnly": true,
+      "noOverflow": true
+    },
+    {
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "validation": true,
+      "usernameAcceptedWithoutAt": true,
+      "passwordVisibilityAndFocus": true,
+      "passwordUnmodifiedThenCleared": true,
+      "noCredentialPersistenceOrUrl": true,
+      "registrationRecoveryResetStates": true,
+      "pendingOrderImmutable": true,
+      "emptyErrorLoadingStates": true,
+      "accountNavigation": true,
+      "detailsDemoOnly": true,
+      "logoutDemoOnly": true,
+      "noOverflow": true
+    },
+    {
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "validation": true,
+      "usernameAcceptedWithoutAt": true,
+      "passwordVisibilityAndFocus": true,
+      "passwordUnmodifiedThenCleared": true,
+      "noCredentialPersistenceOrUrl": true,
+      "registrationRecoveryResetStates": true,
+      "pendingOrderImmutable": true,
+      "emptyErrorLoadingStates": true,
+      "accountNavigation": true,
+      "detailsDemoOnly": true,
+      "logoutDemoOnly": true,
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "failed": [],
+  "localReferences": true
+}

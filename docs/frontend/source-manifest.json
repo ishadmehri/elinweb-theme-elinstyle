@@ -1,0 +1,166 @@
+{
+  "sourceDeliveryDate": "2026-11-14",
+  "packagedDate": "2026-11-15",
+  "files": [
+    {
+      "path": "html/about.html",
+      "sha256": "a5670586b7e1ab3dbda7bef152f70cbb53425d464132166058f720a0b22e7e70",
+      "bytes": 7978
+    },
+    {
+      "path": "html/account.css",
+      "sha256": "ee989e6aeed23f425a49b2704313972b1d1473124e6e6024f4a284766ad626b4",
+      "bytes": 11351
+    },
+    {
+      "path": "html/account.js",
+      "sha256": "20a0abd185f09d423b3038a2401e5910a2e3558d83c625638c3410cc9854e507",
+      "bytes": 11872
+    },
+    {
+      "path": "html/app.js",
+      "sha256": "fec904bccaddb0d6f06a51fd383812bd13668bec2b9c0789603f4bdc0fe231d9",
+      "bytes": 8775
+    },
+    {
+      "path": "html/article.html",
+      "sha256": "920f4bf9f4d3b61547244634f3eca7657c68c5dda9b07a5a623c230fc985673e",
+      "bytes": 9988
+    },
+    {
+      "path": "html/cart.html",
+      "sha256": "fd8e4bc7b927ee6a8779a87832b6d5f85ed7fc41f3804c2803eb73e01a99ea83",
+      "bytes": 7853
+    },
+    {
+      "path": "html/checkout.html",
+      "sha256": "062ecd394a8857a51e511a0d5d3992f8e905b216d01d1361d27970882b07f890",
+      "bytes": 12477
+    },
+    {
+      "path": "html/commerce.css",
+      "sha256": "a7a64435217b059a240ae3143e7ad8e7a1bc988d78f2e3143567b1515c20a209",
+      "bytes": 13556
+    },
+    {
+      "path": "html/commerce.js",
+      "sha256": "0c19b2efc01ee080ba8127282046826f1af471d9740bdc4716747db209dcce1d",
+      "bytes": 12686
+    },
+    {
+      "path": "html/contact.html",
+      "sha256": "34842ccfe49904faa589f4019be3400e61bcd51a641aa466a5e27e239220138f",
+      "bytes": 8021
+    },
+    {
+      "path": "html/demo-store.js",
+      "sha256": "15ed3fedcb88dd5ccd49ec0dbb33d80ac2dbe495f1cd7b03aaab4e833338afbd",
+      "bytes": 4039
+    },
+    {
+      "path": "html/index.html",
+      "sha256": "32b84d42022e58d3dd2c080ed43441c17b76cd75f9c366e6a61d67b98667043c",
+      "bytes": 10232
+    },
+    {
+      "path": "html/login.html",
+      "sha256": "8295fe05f22c68eb33d8855347c1189cd5294f06ed0482d3f6c58114deb35d22",
+      "bytes": 12121
+    },
+    {
+      "path": "html/motion.js",
+      "sha256": "0589811ec6c0d6c359241df25e43ae3db13415b319885e09936a68d14e559769",
+      "bytes": 2945
+    },
+    {
+      "path": "html/my-account.html",
+      "sha256": "b434247fbc9cdb3550ffca8f2585786e6b2fefaee6c6f58dacb6f745555e369b",
+      "bytes": 12711
+    },
+    {
+      "path": "html/product-data.js",
+      "sha256": "f9309401066a87ed73cbfc81579edbe515e5aa79c6bea35cb40f007f95012925",
+      "bytes": 1167
+    },
+    {
+      "path": "html/product.css",
+      "sha256": "f4822208f32d44ef6cd4e0bfa31dd4a53bee7b9a1d3cef3146ecc0a15f2eff62",
+      "bytes": 8679
+    },
+    {
+      "path": "html/product.html",
+      "sha256": "006d674324a9d331714527d9b3dcd90d7a91bfc0f5eed8c8eb17c5fbce6fd3e6",
+      "bytes": 11499
+    },
+    {
+      "path": "html/product.js",
+      "sha256": "0db73299328492ab7c09503ede5f121d393adadd5919f3293735fc40a7de1c9d",
+      "bytes": 10888
+    },
+    {
+      "path": "html/shop.html",
+      "sha256": "f1602e354ffc48ab97acc6f97d0d01949df927ed060750e860eef82033c9dace",
+      "bytes": 8358
+    },
+    {
+      "path": "html/size-guide.css",
+      "sha256": "64916086c046d30eed58410d664a0d3c588f1e165c0d601c19e7dc9eb19388d9",
+      "bytes": 3685
+    },
+    {
+      "path": "html/size-guide.js",
+      "sha256": "9cafebbbeb8192da416f33f3f3ee0775140ddbce0c2639c0fb1339655a17faaa",
+      "bytes": 7810
+    },
+    {
+      "path": "html/styles.css",
+      "sha256": "8a0c2c440b67d0799737a43b647f90d957ffde2d7cdf4a8a1bca67181e4ac130",
+      "bytes": 23372
+    },
+    {
+      "path": "html/assets/brand/favicon.svg",
+      "sha256": "00a944098004d1388182c28d0ceec4738bb90d286ee1ea8caaabbbf08a5f07f0",
+      "bytes": 432
+    },
+    {
+      "path": "html/assets/brand/logo-light.svg",
+      "sha256": "6fcb00df985396afe41a0102bc40c66b7338880caf83c19697db28f9f26e5134",
+      "bytes": 2161
+    },
+    {
+      "path": "html/assets/brand/logo.svg",
+      "sha256": "1dac4dfeadf2b9ead61108fb1e0a9b75f96073671fd126e82fb7bc13f9869889",
+      "bytes": 2161
+    },
+    {
+      "path": "html/assets/brand/mark.svg",
+      "sha256": "3dcb3bbe74ea178a72ffa112b3ee2b2c1ddd36ca3c6aa396f2cc2fe0fa487bdd",
+      "bytes": 386
+    },
+    {
+      "path": "html/assets/fonts/YekanBakh-Bold.ttf",
+      "sha256": "f43d72d1983eaabc367d7ea84e5d0bfc609b2596df8a75f91db3e61ba0ce8411",
+      "bytes": 120489
+    },
+    {
+      "path": "html/assets/fonts/YekanBakh-Regular.ttf",
+      "sha256": "dfe79b99286497466dbeb1149c83713461d592bfd5abc79e0b0759274e5df1ef",
+      "bytes": 121364
+    },
+    {
+      "path": "html/assets/fonts/YekanBakh-SemiBold.ttf",
+      "sha256": "f22a4a18d7a192e5e46cf269ed9e693fceac40b101cdbc6e023ef72dcf2e5eca",
+      "bytes": 121280
+    },
+    {
+      "path": "html/assets/images/catalog.png",
+      "sha256": "f3822aee5d306f816b6c0cd0b46e13d95bf5ae6ab53d7dc407fd9dac7e7a5a4d",
+      "bytes": 1900301
+    },
+    {
+      "path": "html/assets/images/editorial.png",
+      "sha256": "d93d2e67e2dea8e310dd1dd94c83c25745253d04c643c8465fcd16a94122b0f6",
+      "bytes": 2580140
+    }
+  ]
+}

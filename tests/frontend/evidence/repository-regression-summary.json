@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-15",
+  "checks": [
+    {
+      "name": "smoke-check",
+      "passed": true,
+      "seconds": 7.5
+    },
+    {
+      "name": "product-check",
+      "passed": true,
+      "seconds": 11.5
+    },
+    {
+      "name": "commerce-check",
+      "passed": true,
+      "seconds": 10.3
+    },
+    {
+      "name": "commerce-edge-check",
+      "passed": true,
+      "seconds": 2.6
+    },
+    {
+      "name": "account-check",
+      "passed": true,
+      "seconds": 14.5
+    },
+    {
+      "name": "account-edge-check",
+      "passed": true,
+      "seconds": 1.8
+    },
+    {
+      "name": "interaction-check",
+      "passed": true,
+      "seconds": 4
+    },
+    {
+      "name": "motion-check",
+      "passed": true,
+      "seconds": 27.2
+    },
+    {
+      "name": "size-guide-integration",
+      "passed": true,
+      "seconds": 18.4
+    }
+  ]
+}

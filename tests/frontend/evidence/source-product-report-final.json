@@ -1,0 +1,60 @@
+{
+  "run": "final",
+  "modes": [
+    {
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "initialIncomplete": true,
+      "variations": true,
+      "quantityBounds": true,
+      "rapidSelections": true,
+      "demoDuplicateGuard": true,
+      "galleryKeyboardZoom": true,
+      "sizeGuide": true,
+      "noOverflow": true,
+      "correctCardLinks": true
+    },
+    {
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "initialIncomplete": true,
+      "variations": true,
+      "quantityBounds": true,
+      "rapidSelections": true,
+      "demoDuplicateGuard": true,
+      "galleryKeyboardZoom": true,
+      "sizeGuide": true,
+      "noOverflow": true,
+      "correctCardLinks": true
+    },
+    {
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "initialIncomplete": true,
+      "variations": true,
+      "quantityBounds": true,
+      "rapidSelections": true,
+      "demoDuplicateGuard": true,
+      "galleryKeyboardZoom": true,
+      "sizeGuide": true,
+      "noOverflow": true,
+      "correctCardLinks": true
+    },
+    {
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "initialIncomplete": true,
+      "variations": true,
+      "quantityBounds": true,
+      "rapidSelections": true,
+      "demoDuplicateGuard": true,
+      "galleryKeyboardZoom": true,
+      "sizeGuide": true,
+      "noOverflow": true,
+      "correctCardLinks": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "failed": []
+}

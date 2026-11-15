@@ -1,0 +1,73 @@
+{
+  "run": "final",
+  "pages": [
+    {
+      "name": "index",
+      "desktopTriggers": 2,
+      "mobileTrigger": true,
+      "chartSwitch": true,
+      "focusTrap": true,
+      "escapeRestoration": true,
+      "closeButton": true,
+      "backdrop": true,
+      "rapidReopen": true,
+      "scrollRestored": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "shop",
+      "desktopTriggers": 3,
+      "mobileTrigger": true,
+      "chartSwitch": true,
+      "focusTrap": true,
+      "escapeRestoration": true,
+      "closeButton": true,
+      "backdrop": true,
+      "rapidReopen": true,
+      "scrollRestored": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "article",
+      "desktopTriggers": 2,
+      "mobileTrigger": true,
+      "chartSwitch": true,
+      "focusTrap": true,
+      "escapeRestoration": true,
+      "closeButton": true,
+      "backdrop": true,
+      "rapidReopen": true,
+      "scrollRestored": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "about",
+      "desktopTriggers": 2,
+      "mobileTrigger": true,
+      "chartSwitch": true,
+      "focusTrap": true,
+      "escapeRestoration": true,
+      "closeButton": true,
+      "backdrop": true,
+      "rapidReopen": true,
+      "scrollRestored": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "contact",
+      "desktopTriggers": 3,
+      "mobileTrigger": true,
+      "chartSwitch": true,
+      "focusTrap": true,
+      "escapeRestoration": true,
+      "closeButton": true,
+      "backdrop": true,
+      "rapidReopen": true,
+      "scrollRestored": true,
+      "reducedMotion": true
+    }
+  ],
+  "errors": [],
+  "remote": [],
+  "narrowTableKeyboardScroll": true
+}

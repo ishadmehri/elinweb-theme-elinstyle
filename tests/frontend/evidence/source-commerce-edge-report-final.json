@@ -1,0 +1,14 @@
+{
+  "run": "final",
+  "twoVariationsAndTotals": true,
+  "variantEditLink": true,
+  "rapidQuantityAndProvince": true,
+  "couponEnterOnlyAppliesCoupon": true,
+  "policyPlaceholderAndFocus": true,
+  "localResourceAudit": true,
+  "malformedJsonAndSchema": true,
+  "excessQuantityClamped": true,
+  "storedPriceIgnored": true,
+  "errors": [],
+  "external": []
+}

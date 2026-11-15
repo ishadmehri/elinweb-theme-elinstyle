@@ -1,0 +1,18 @@
+{
+  "passed": [
+    "OR in category, AND with color/size, empty state",
+    "fabric chip removal, price bound/removal, sort",
+    "favorite persisted and pressed state restored",
+    "undefined product destination explains demo, Escape closes dialog",
+    "empty form errors/focus, invalid email, valid demo retains data",
+    "article TOC anchor",
+    "mobile menu Escape focus, actual search form navigation",
+    "storage unavailable fallback",
+    "all five mobile screenshots and no overflow",
+    "local src/href/CSS resources audit"
+  ],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "missingReferences": [],
+  "externalReferences": []
+}

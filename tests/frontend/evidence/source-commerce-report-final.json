@@ -1,0 +1,65 @@
+{
+  "run": "final",
+  "modes": [
+    {
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "productCartCheckout": true,
+      "quantityAndTotals": true,
+      "couponNoFakeDiscount": true,
+      "formErrors": true,
+      "persianArabicDigits": true,
+      "dependentCity": true,
+      "shippingPendingAndUnavailable": true,
+      "sessionDraftRestored": true,
+      "clearDraft": true,
+      "emptyCart": true
+    },
+    {
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "productCartCheckout": true,
+      "quantityAndTotals": true,
+      "couponNoFakeDiscount": true,
+      "formErrors": true,
+      "persianArabicDigits": true,
+      "dependentCity": true,
+      "shippingPendingAndUnavailable": true,
+      "sessionDraftRestored": true,
+      "clearDraft": true,
+      "emptyCart": true
+    },
+    {
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "productCartCheckout": true,
+      "quantityAndTotals": true,
+      "couponNoFakeDiscount": true,
+      "formErrors": true,
+      "persianArabicDigits": true,
+      "dependentCity": true,
+      "shippingPendingAndUnavailable": true,
+      "sessionDraftRestored": true,
+      "clearDraft": true,
+      "emptyCart": true
+    },
+    {
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "productCartCheckout": true,
+      "quantityAndTotals": true,
+      "couponNoFakeDiscount": true,
+      "formErrors": true,
+      "persianArabicDigits": true,
+      "dependentCity": true,
+      "shippingPendingAndUnavailable": true,
+      "sessionDraftRestored": true,
+      "clearDraft": true,
+      "emptyCart": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "failed": [],
+  "blockedStorageAndInvalidData": true
+}

@@ -1,0 +1,286 @@
+{
+  "run": "staging",
+  "pages": [
+    {
+      "name": "index",
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "shop",
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "article",
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "about",
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "contact",
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "index",
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "shop",
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "article",
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "about",
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "contact",
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "enterDuration": [
+        240
+      ],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "index",
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "shop",
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "article",
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "about",
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "contact",
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "index",
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "shop",
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "article",
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "about",
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    },
+    {
+      "name": "contact",
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "enterDuration": [],
+      "rapidPopup": true,
+      "chartFinalState": true,
+      "focusRestored": true,
+      "scrollRestored": true
+    }
+  ],
+  "checks": [
+    {
+      "mobile": false,
+      "reducedMotion": "no-preference",
+      "rapidTabs": true,
+      "noticePopup": true,
+      "rapidFilters": {
+        "n": 2,
+        "focus": true,
+        "empty": 0,
+        "count": "۰ محصول",
+        "animations": 1
+      },
+      "emptyResetFocus": true
+    },
+    {
+      "mobile": true,
+      "reducedMotion": "no-preference",
+      "rapidTabs": true,
+      "noticePopup": true,
+      "rapidFilters": {
+        "n": 2,
+        "focus": true,
+        "empty": 0,
+        "count": "۰ محصول",
+        "animations": 1
+      },
+      "emptyResetFocus": true
+    },
+    {
+      "mobile": false,
+      "reducedMotion": "reduce",
+      "rapidTabs": true,
+      "noticePopup": true,
+      "rapidFilters": {
+        "n": 2,
+        "focus": true,
+        "empty": 0,
+        "count": "۰ محصول",
+        "animations": 0
+      },
+      "emptyResetFocus": true
+    },
+    {
+      "mobile": true,
+      "reducedMotion": "reduce",
+      "rapidTabs": true,
+      "noticePopup": true,
+      "rapidFilters": {
+        "n": 2,
+        "focus": true,
+        "empty": 0,
+        "count": "۰ محصول",
+        "animations": 0
+      },
+      "emptyResetFocus": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "liveReducedMotion": true
+}

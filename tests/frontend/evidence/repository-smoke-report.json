@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-15",
+  "pages": [
+    {
+      "name": "index",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "shop",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "product",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "cart",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "checkout",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "article",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "about",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "contact",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "login",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "my-account",
+      "width": 1440,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "index",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "shop",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "product",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "cart",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "checkout",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "article",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "about",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "contact",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "login",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    },
+    {
+      "name": "my-account",
+      "width": 390,
+      "loaded": true,
+      "noOverflow": true,
+      "accountRoute": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "failed": [],
+  "runtimeFilesMatch": 32,
+  "localReferences": true
+}

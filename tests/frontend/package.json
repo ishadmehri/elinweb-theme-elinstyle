@@ -1,0 +1,12 @@
+{
+  "name": "elinstyle-frontend-tests",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "smoke": "node smoke-check.cjs",
+    "verify": "node run-checks.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
