@@ -1,0 +1,382 @@
+{
+  "date": "2026-11-15",
+  "originalProject": "01-apparel",
+  "copies": [
+    {
+      "file": "design/previews/about-desktop-v1.png",
+      "source": "about-desktop-v1.png",
+      "sha256": "cd8d05c99295b0da969d2350361688c54d51960d8f816722ac9e76696904c5ad",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/article-category-desktop-v1.png",
+      "source": "article-category-desktop-v1.png",
+      "sha256": "6331e9367bfddd9030fe0036af3c612d5f057e12dbcdae44632c9965d8bce242",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/article-desktop-v1.png",
+      "source": "article-desktop-v1.png",
+      "sha256": "d791f0cf5a2e6c8277d634a6e0f1e932fadd34b9c06568d8465361070f3e4557",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/cart-desktop-v1.png",
+      "source": "cart-desktop-v1.png",
+      "sha256": "c58167519ef5b01840f6f51ddd73a12983a0cc18fc568412c5b29e345b3fa246",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/checkout-desktop-v1.png",
+      "source": "checkout-desktop-v1.png",
+      "sha256": "027c06c0bc75a7bd2466ebec880047b4398a2e2991b515bbe6fc0be5819a0751",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/contact-desktop-v1.png",
+      "source": "contact-desktop-v1.png",
+      "sha256": "80e6cae89c14a8c9a7c16301fd745c988238a15721cbebc6d340b0064a198814",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/homepage-desktop-v1.png",
+      "source": "homepage-desktop-v1.png",
+      "sha256": "883fb202e05bd35943fc271a14269167d95d9459d00a9afb2c852c4fb10bd044",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/homepage-mobile-v1.png",
+      "source": "homepage-mobile-v1.png",
+      "sha256": "f05d2b6e2a0fee03deb5078c08d4ca08490eea390cfba4de9354b6bb0d194176",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/login-desktop-v1.png",
+      "source": "login-desktop-v1.png",
+      "sha256": "78f71998b74ca0b7bf822a6bfe3bd535984927f3a5b6ae75006aad79d4da0429",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/my-account-desktop-v1.png",
+      "source": "my-account-desktop-v1.png",
+      "sha256": "2d3f2243828e6f52f66b4b668ab4a4e97ddf4e14221a77362f741a61ee789122",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/product-desktop-v1.png",
+      "source": "product-desktop-v1.png",
+      "sha256": "c3b8ad319d1d673ca76377feec9f243fd4349c6f3c0d15775a5dc0105e932d8c",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/shop-desktop-v1.png",
+      "source": "shop-desktop-v1.png",
+      "sha256": "99b0a2d2de726fff284ef64395f48b2083d479ab43143b4531d6f49f534e2b2d",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/about-design-spec.md",
+      "source": "about-design-spec.md",
+      "sha256": "2a4ad34e8427746e8f4ab72e2c601aff545b1771b2110b4c6c1e7c5f0efeeed5",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/article-category-design-spec.md",
+      "source": "article-category-design-spec.md",
+      "sha256": "89bd77b6300c49afe58eb2e4be862ccca3e21bf322bf68927a14696fea5f2b58",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/article-design-spec.md",
+      "source": "article-design-spec.md",
+      "sha256": "f5259e43075caaea9eb9dbb4d1a2aae59b60bd00ea88c8f5f57e778d959e7ec6",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/cart-design-spec.md",
+      "source": "cart-design-spec.md",
+      "sha256": "ca64a2346539d4a1c81ee89bef45827c62101a1c8709adf4a6a202212efa3bfa",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/checkout-design-spec.md",
+      "source": "checkout-design-spec.md",
+      "sha256": "0e55c4548dbde5151a9afaf26dd18e8773ab5e9ea2029d16f2d3d5a6fa2ff556",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/contact-design-spec.md",
+      "source": "contact-design-spec.md",
+      "sha256": "f0c0c46f71f8cf464f6d5af4a3d6aed6b8bfa116d7eb9759f4a42b193590d5c5",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/design-spec.md",
+      "source": "design-spec.md",
+      "sha256": "687e949b5e8fc4e78be9eaf7df08c21a7d7f1585dbd989fc31d510be0e7f1983",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/login-design-spec.md",
+      "source": "login-design-spec.md",
+      "sha256": "3a8fb7000034fb5acf66c8cb07b4a5ae828e39daf5143b63248371fe7abb1d6c",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/my-account-design-spec.md",
+      "source": "my-account-design-spec.md",
+      "sha256": "6aeeb0c782baa29f4f14c67dd5d332b4cf96efbed610ece41bf61985f131351b",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/product-design-spec.md",
+      "source": "product-design-spec.md",
+      "sha256": "2d686d7fb5d0140299896b14ac21706962ea84c1628db934d6c2f32c0c74b3fc",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/shop-design-spec.md",
+      "source": "shop-design-spec.md",
+      "sha256": "4bba014df31499a7fab0a11957e697c63d735312099745d69d717bc4b79b4e28",
+      "unchangedCopy": true
+    },
+    {
+      "file": "docs/design/specs/sitemap.md",
+      "source": "sitemap.md",
+      "sha256": "ab51f19f996e40d8f850c17a63765d032517f68dfe131a783aa5efad3f01f7e9",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/assets/catalog-contact-sheet-v1.png",
+      "source": "catalog-contact-sheet-v1.png",
+      "sha256": "f3822aee5d306f816b6c0cd0b46e13d95bf5ae6ab53d7dc407fd9dac7e7a5a4d",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/assets/editorial-hero-v1.png",
+      "source": "editorial-hero-v1.png",
+      "sha256": "d93d2e67e2dea8e310dd1dd94c83c25745253d04c643c8465fcd16a94122b0f6",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/assets/image-prompts.md",
+      "source": "image-prompts.md",
+      "sha256": "c818d3e07060d17c8c52b194eb6566972f1f68ff6ae37a81b5159d257fb3179b",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/brand/logo.svg",
+      "source": "logo.svg",
+      "sha256": "1dac4dfeadf2b9ead61108fb1e0a9b75f96073671fd126e82fb7bc13f9869889",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/brand/logo-light.svg",
+      "source": "logo-light.svg",
+      "sha256": "6fcb00df985396afe41a0102bc40c66b7338880caf83c19697db28f9f26e5134",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/brand/mark.svg",
+      "source": "mark.svg",
+      "sha256": "3dcb3bbe74ea178a72ffa112b3ee2b2c1ddd36ca3c6aa396f2cc2fe0fa487bdd",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/brand/favicon.svg",
+      "source": "favicon.svg",
+      "sha256": "00a944098004d1388182c28d0ceec4738bb90d286ee1ea8caaabbbf08a5f07f0",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/brand/brand-preview.png",
+      "source": "brand-preview.png",
+      "sha256": "3b098623dfec13297b38903d2531eb2ab9848b268612b0927539e435333a9567",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/brand/brand-evidence.json",
+      "source": "brand-evidence.json",
+      "sha256": "b68c1029ace4db51fda00d8fb94c5912fe4b7c2cb0da5f42cb11de6d72aea14e",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/brand/README.md",
+      "source": "README.md",
+      "sha256": "f9bc97ef00de5ddfda0a2d9076081087d088addd0573d5293a47f0391859d383",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/about-render-verification.json",
+      "source": "about-render-verification.json",
+      "sha256": "0d816a25baf9787751f2844acc30a2f2ef10f9b0f66df74f3a755cdccf1fda48",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/article-category-render-verification.json",
+      "source": "article-category-render-verification.json",
+      "sha256": "24dacbcfb00aac6288377850736af9e4c39092dacff8da4707d032ae11177321",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/article-render-verification.json",
+      "source": "article-render-verification.json",
+      "sha256": "9f2071e4a5b30037b0a1b83d8c3a81f8258b2bb743132f7142cab05c0762b86f",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/cart-render-verification.json",
+      "source": "cart-render-verification.json",
+      "sha256": "9c89d7734f3751124a5b6941dff75dc43ce69e66160778361de4490ae87dbe0d",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/checkout-render-verification.json",
+      "source": "checkout-render-verification.json",
+      "sha256": "6e213bf20e2b5b156c393c0535bedac874d5a8c6e16ed5209bf7332b11727678",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/contact-render-verification.json",
+      "source": "contact-render-verification.json",
+      "sha256": "63be2d4900d234129958e432ae139733ff836bbc0c28a0aae8d4b6ca8a79f7ab",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/contrast-report.json",
+      "source": "contrast-report.json",
+      "sha256": "b8bdd5b8d3d2693c9729bcd581629f7b901977fec6da065db33ca627056041c1",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/font-evidence.json",
+      "source": "font-evidence.json",
+      "sha256": "ac59d0b84c9bbf50a36c4dc47dc2783cf2cc669195791f7894bfac4bee030c11",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/login-render-verification.json",
+      "source": "login-render-verification.json",
+      "sha256": "bea742f3338b1f68e75fe69e96ff476ecc482470edd5b15c601a4c1817e65738",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/my-account-render-verification.json",
+      "source": "my-account-render-verification.json",
+      "sha256": "1b8c516866dd2fd0a08a8065643bc3d4ae99e860c06fb0b612d739452d8e94c0",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/product-render-verification.json",
+      "source": "product-render-verification.json",
+      "sha256": "6e213bf20e2b5b156c393c0535bedac874d5a8c6e16ed5209bf7332b11727678",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/render-verification.json",
+      "source": "render-verification.json",
+      "sha256": "55a64df95af39077c24a3a2449e297f32299ef285243c9af087588d2d444f513",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/qa/shop-render-verification.json",
+      "source": "shop-render-verification.json",
+      "sha256": "ddd38bf81bcde1a1632f89a92ff2b6ce7e322fc6520e913c7e28a6dbe714a22a",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/size-guide-desktop-implementation-reference.png",
+      "source": "size-guide-final-desktop.png",
+      "sha256": "57f411568c8037e7c009a14420a3789004b2aaa93108759d571d16d0d6119808",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/previews/size-guide-mobile-implementation-reference.png",
+      "source": "size-guide-final-mobile.png",
+      "sha256": "3cc60ba7f8d40d352fb749a5f518efbd0cdad3343907acece87efc580e7a96c5",
+      "unchangedCopy": true
+    },
+    {
+      "file": "design/tokens/tokens.original-v1.json",
+      "source": "tokens.json",
+      "sha256": "9572e4071032ff8796a28f12cb26c62be780fce02a1d896988edd07274a564b8",
+      "unchangedCopy": true
+    }
+  ],
+  "editableSvgAdaptations": [
+    {
+      "file": "design/source/artboards/about-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "a64f0a9a510dbddb5941111c7a1060efb338e94b555e9825612703f34f74042f"
+    },
+    {
+      "file": "design/source/artboards/article-category-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "e37d939b537c46a5cfbc6adfc789ae70982bbb56a01b81642ee084eea17739ed"
+    },
+    {
+      "file": "design/source/artboards/article-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "ca4a1a93c024fcb17592e14b63164d2e117e19d8992f52bfe4801c6a320396a2"
+    },
+    {
+      "file": "design/source/artboards/cart-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "5ed018d351dd8074a2330eb55a23125f62a88ff1289d932a8a4b317d6855ef7f"
+    },
+    {
+      "file": "design/source/artboards/checkout-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "2ec89b098711537037ac2d72138cc5a77951e886413a27875c0c55db803e96e5"
+    },
+    {
+      "file": "design/source/artboards/contact-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "0afdd4a8f6ec0e0b37d74e18090fe0f6aec45e099124571a9ea8d8785fe22506"
+    },
+    {
+      "file": "design/source/artboards/homepage-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "b0cebf1d0d068014255799cb9df7aa85ae1e64a9ef3173744297c1745f72743f"
+    },
+    {
+      "file": "design/source/artboards/homepage-mobile-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "6f8576640fd25372ed8dd9616861cca4a878b9e2d5b9b2ad445ec900b25ebab2"
+    },
+    {
+      "file": "design/source/artboards/login-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "74ffdd8bebd6a69b2251e95b404e5557ec9ef6aab9df31f68bf00ff8a9254e3b"
+    },
+    {
+      "file": "design/source/artboards/my-account-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "d0e7f6d022b40c3c92fcf7369fe608e48d093289f0142163b3e649fe7c257265"
+    },
+    {
+      "file": "design/source/artboards/product-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "e6c28c502ab51c711e9dba82f344ccde24d0aa0a44aab30bbafc91630aabebac"
+    },
+    {
+      "file": "design/source/artboards/shop-desktop-v1.svg",
+      "removedEmbeddedFontFaces": 3,
+      "embeddedBinaryPayloads": 0,
+      "sha256": "7e45bd80cd8a4fd4f31df8e78a95dbb94f51df824282bf3367a8b7c90e3b2dc1"
+    }
+  ],
+  "fontBinariesIncluded": false,
+  "medicalProjectIncluded": false
+}

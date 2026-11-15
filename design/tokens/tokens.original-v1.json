@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0-design",
+  "status": "pending-homepage-approval",
+  "brand": { "name": "روزپوش", "temporary": true, "locale": "fa-IR", "direction": "rtl" },
+  "color": {
+    "background": { "page": "#F7F5EF", "surface": "#FFFFFF", "subtle": "#EEEDE6", "editorial": "#EAE6DA", "inverse": "#242622" },
+    "text": { "primary": "#242622", "secondary": "#64675E", "inverse": "#FFFFFF", "inverseSecondary": "#D5D9CE", "onAccentSecondary": "#E1E6D7", "placeholder": "#64675E" },
+    "border": { "subtle": "#DADCD2", "control": "#818775", "inverse": "#4B5047" },
+    "action": { "primary": "#4D593C", "hover": "#3E4930", "pressed": "#303B25", "onPrimary": "#FFFFFF", "secondary": "#F7F5EF", "onSecondary": "#242622", "disabledBackground": "#DFE2D7", "disabledText": "#5C6056", "focusRing": "#4D593C" },
+    "selection": { "background": "#E8ECDF", "foreground": "#303B25", "border": "#4D593C" },
+    "feedback": {
+      "success": { "text": "#2F593A", "surface": "#ECF3E9", "border": "#6E8D68" },
+      "warning": { "text": "#705017", "surface": "#FFF3D8", "border": "#A27A35" },
+      "error": { "text": "#9B3434", "surface": "#FCEDEC", "border": "#BD5656" },
+      "info": { "text": "#345868", "surface": "#EBF2F5", "border": "#658997" }
+    }
+  },
+  "typography": {
+    "family": "Yekan Bakh",
+    "svgAlias": "Yekan",
+    "sourceDirectory": "D:\\Fonts\\fontiran\\YekanBakh3-ProPlus\\Pro+\\Yekan Bakh Family\\ttf",
+    "files": { "400": "YekanBakh-Regular.ttf", "600": "YekanBakh-SemiBold.ttf", "700": "YekanBakh-Bold.ttf" },
+    "weights": { "body": 400, "label": 600, "heading": 700 },
+    "sizes": { "caption": 12, "small": 14, "body": 16, "lead": 20, "sectionMobile": 26, "sectionDesktop": 34, "heroMobile": 38, "heroDesktop": 66 },
+    "lineHeightRatio": { "body": 1.8, "heading": 1.25, "label": 1.5 },
+    "numerals": "Persian digits with U+066C grouping; currency تومان; Latin model codes isolated LTR"
+  },
+  "spacing": [4, 8, 12, 16, 20, 24, 32, 40, 48, 56, 64, 80],
+  "radius": { "panel": 0, "button": 0, "chip": 0, "iconBackground": 16 },
+  "layout": { "desktopArtboard": [1440, 2960], "desktopGutter": 64, "desktopContent": 1312, "desktopProductColumns": 4, "desktopProductGap": 24, "mobileArtboard": [390, 3570], "mobileGutter": 20, "mobileProductColumns": 2, "mobileProductGap": 14, "proposedBreakpoints": [600, 1024], "buttonHeight": 48, "minimumInteractiveTarget": 44 },
+  "focus": { "width": 2, "offset": 3, "inverseRing": "#F7F5EF" },
+  "motionProposal": { "durationMs": 160, "easing": "ease-out", "reducedMotion": "no transform or animation", "status": "specification-only" }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "pair": "body/page",
+    "foreground": "#242622",
+    "background": "#F7F5EF",
+    "ratio": 14.01,
+    "normalText4_5": true
+  },
+  {
+    "pair": "secondary/page",
+    "foreground": "#64675E",
+    "background": "#F7F5EF",
+    "ratio": 5.29,
+    "normalText4_5": true
+  },
+  {
+    "pair": "secondary/hero",
+    "foreground": "#64675E",
+    "background": "#EAE6DA",
+    "ratio": 4.62,
+    "normalText4_5": true
+  },
+  {
+    "pair": "placeholder/search",
+    "foreground": "#64675E",
+    "background": "#EEEDE6",
+    "ratio": 4.91,
+    "normalText4_5": true
+  },
+  {
+    "pair": "white/primary",
+    "foreground": "#FFFFFF",
+    "background": "#4D593C",
+    "ratio": 7.47,
+    "normalText4_5": true
+  },
+  {
+    "pair": "campaign-secondary",
+    "foreground": "#E1E6D7",
+    "background": "#4D593C",
+    "ratio": 5.87,
+    "normalText4_5": true
+  },
+  {
+    "pair": "footer-secondary",
+    "foreground": "#D5D9CE",
+    "background": "#242622",
+    "ratio": 10.65,
+    "normalText4_5": true
+  },
+  {
+    "pair": "disabled",
+    "foreground": "#5C6056",
+    "background": "#DFE2D7",
+    "ratio": 4.9,
+    "normalText4_5": true
+  },
+  {
+    "pair": "success",
+    "foreground": "#2F593A",
+    "background": "#ECF3E9",
+    "ratio": 7.11,
+    "normalText4_5": true
+  },
+  {
+    "pair": "warning",
+    "foreground": "#705017",
+    "background": "#FFF3D8",
+    "ratio": 6.69,
+    "normalText4_5": true
+  },
+  {
+    "pair": "error",
+    "foreground": "#9B3434",
+    "background": "#FCEDEC",
+    "ratio": 6.29,
+    "normalText4_5": true
+  },
+  {
+    "pair": "info",
+    "foreground": "#345868",
+    "background": "#EBF2F5",
+    "ratio": 6.77,
+    "normalText4_5": true
+  }
+]

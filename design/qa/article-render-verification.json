@@ -1,0 +1,21 @@
+{
+  "fonts": [
+    {
+      "family": "Yekan",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Yekan",
+      "weight": "600",
+      "status": "loaded"
+    },
+    {
+      "family": "Yekan",
+      "weight": "700",
+      "status": "loaded"
+    }
+  ],
+  "textCount": 72,
+  "overflow": []
+}

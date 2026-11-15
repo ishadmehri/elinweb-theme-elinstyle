@@ -1,0 +1,17 @@
+[
+  {
+    "weight": 400,
+    "path": "D:\\Fonts\\fontiran\\YekanBakh3-ProPlus\\Pro+\\Yekan Bakh Family\\ttf\\YekanBakh-Regular.ttf",
+    "sha256": "dfe79b99286497466dbeb1149c83713461d592bfd5abc79e0b0759274e5df1ef"
+  },
+  {
+    "weight": 600,
+    "path": "D:\\Fonts\\fontiran\\YekanBakh3-ProPlus\\Pro+\\Yekan Bakh Family\\ttf\\YekanBakh-SemiBold.ttf",
+    "sha256": "f22a4a18d7a192e5e46cf269ed9e693fceac40b101cdbc6e023ef72dcf2e5eca"
+  },
+  {
+    "weight": 700,
+    "path": "D:\\Fonts\\fontiran\\YekanBakh3-ProPlus\\Pro+\\Yekan Bakh Family\\ttf\\YekanBakh-Bold.ttf",
+    "sha256": "f43d72d1983eaabc367d7ea84e5d0bfc609b2596df8a75f91db3e61ba0ce8411"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 2960,
+    "fonts": [
+      {
+        "family": "Yekan",
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "family": "Yekan",
+        "weight": "600",
+        "status": "loaded"
+      },
+      {
+        "family": "Yekan",
+        "weight": "700",
+        "status": "loaded"
+      }
+    ],
+    "textCount": 76,
+    "overflow": []
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 3570,
+    "fonts": [
+      {
+        "family": "Yekan",
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "family": "Yekan",
+        "weight": "600",
+        "status": "loaded"
+      },
+      {
+        "family": "Yekan",
+        "weight": "700",
+        "status": "loaded"
+      }
+    ],
+    "textCount": 65,
+    "overflow": []
+  }
+]
