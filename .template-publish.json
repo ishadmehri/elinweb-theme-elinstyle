@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "roles": {
+    "design": { "paths": ["design", "docs/design"] },
+    "frontend": { "paths": ["html", "docs/frontend", "tests/frontend"] },
+    "wordpress": { "paths": ["wordpress", "demos", "docs/wordpress", "tests/wordpress"] },
+    "manager": { "paths": ["README.md", "CHANGELOG.md", ".gitignore", ".template-publish.json", "tools", "docs/project"] }
+  }
+}

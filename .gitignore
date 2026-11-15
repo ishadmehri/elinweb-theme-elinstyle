@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+wp-config.php
+node_modules/
+.venv/
+__pycache__/
+*.log
+*.sql
+*.zip
+.DS_Store
+Thumbs.db
+/dist/
+/tmp/
