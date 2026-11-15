@@ -1,0 +1,12 @@
+
+.elinstyle-surface .wp-block-group{box-sizing:border-box}
+.elinstyle-surface .wp-block-image{margin:0}
+.elinstyle-surface .hero>.wp-block-image{height:626px;min-width:0}
+.elinstyle-surface .hero>.wp-block-image img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.elinstyle-surface .about-story>.wp-block-image img{width:100%;height:500px;object-fit:cover;object-position:center top}
+.elinstyle-surface .wp-block-button__link.btn{border-radius:0;font-size:inherit;line-height:inherit}
+.elinstyle-surface .wp-block-buttons{margin:0}
+.elinstyle-surface .account a{display:flex;gap:12px;align-items:center}
+.elinstyle-surface .product-photo img{width:100%;height:100%;object-fit:cover}
+.elinstyle-surface .catalog-status{padding:24px;background:var(--pale);grid-column:1/-1}
+@media(max-width:700px){.elinstyle-surface .hero>.wp-block-image{height:auto}.elinstyle-surface .hero>.wp-block-image img{height:auto;aspect-ratio:390/326}.elinstyle-surface .about-story>.wp-block-image img{height:auto}}

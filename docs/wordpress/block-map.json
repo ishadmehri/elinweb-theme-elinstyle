@@ -1,0 +1,37 @@
+{
+  "index": {
+    "elinstyle/fragment": 14,
+    "heading": 8,
+    "paragraph": 11,
+    "group": 15,
+    "image": 1,
+    "elinstyle/catalog": 1
+  },
+  "shop": {
+    "elinstyle/fragment": 2,
+    "heading": 2,
+    "paragraph": 3,
+    "group": 5,
+    "elinstyle/catalog": 1
+  },
+  "article": {
+    "elinstyle/fragment": 5,
+    "heading": 6,
+    "paragraph": 8,
+    "group": 12
+  },
+  "about": {
+    "elinstyle/fragment": 6,
+    "heading": 8,
+    "paragraph": 11,
+    "group": 14,
+    "image": 1
+  },
+  "contact": {
+    "elinstyle/fragment": 9,
+    "heading": 4,
+    "paragraph": 8,
+    "group": 12,
+    "elinstyle/contact": 1
+  }
+}

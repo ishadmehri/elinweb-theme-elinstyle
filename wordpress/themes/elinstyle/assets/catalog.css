@@ -1,0 +1,68 @@
+/* Approved static catalog rules, scoped to the live Woo block. */
+.elinstyle-surface [data-elinstyle-catalog].shop-layout{display:grid;grid-template-columns:256px minmax(0,1fr);gap:72px;border-top:1px solid var(--line);padding-top:12px}
+.elinstyle-surface [data-elinstyle-catalog] .filters{position:relative}
+.elinstyle-surface [data-elinstyle-catalog] .filters:after{content:"";position:absolute;left:-32px;top:0;bottom:0;width:1px;background:var(--line)}
+.elinstyle-surface [data-elinstyle-catalog] .filter-title{display:flex;justify-content:space-between;align-items:center;margin:8px 0 32px}
+.elinstyle-surface [data-elinstyle-catalog] .filters fieldset{border:0;border-bottom:1px solid var(--line);padding:12px 0 28px;margin:0 0 22px;min-width:0}
+.elinstyle-surface [data-elinstyle-catalog] .filters legend{font-size:18px;font-weight:600;margin-bottom:8px}
+.elinstyle-surface [data-elinstyle-catalog] .filters label{display:flex;align-items:center;gap:10px;margin:12px 0}
+.elinstyle-surface [data-elinstyle-catalog] .filters label small{margin-inline-start:auto}
+.elinstyle-surface [data-elinstyle-catalog] .filters input[type=checkbox]{accent-color:var(--olive);width:18px;height:18px}
+.elinstyle-surface [data-elinstyle-catalog] .filters [data-all]{display:block;width:100%;font-weight:600}
+.elinstyle-surface [data-elinstyle-catalog] .filters [data-all] small{float:left}
+.elinstyle-surface [data-elinstyle-catalog] .sizes{display:flex;gap:8px}
+.elinstyle-surface [data-elinstyle-catalog] .sizes label{flex:1;position:relative}
+.elinstyle-surface [data-elinstyle-catalog] .sizes input{position:absolute;opacity:0}
+.elinstyle-surface [data-elinstyle-catalog] .sizes span{border:1px solid #818775;width:100%;text-align:center;padding:6px}
+.elinstyle-surface [data-elinstyle-catalog] .sizes input:checked+span{background:var(--olive);color:white}
+.elinstyle-surface [data-elinstyle-catalog] .sizes input:focus-visible+span{outline:2px solid var(--olive);outline-offset:3px}
+.elinstyle-surface [data-elinstyle-catalog] .price-inputs{display:flex;gap:12px}
+.elinstyle-surface [data-elinstyle-catalog] .price-inputs label{display:block;width:50%;font-size:12px}
+.elinstyle-surface [data-elinstyle-catalog] .price-inputs input{width:100%;padding:7px 3px;background:none;border:1px solid #818775;font-size:14px}
+.elinstyle-surface [data-elinstyle-catalog] .filters input[type=range]{width:100%;accent-color:var(--olive)}
+.elinstyle-surface [data-elinstyle-catalog] .toolbar{display:flex;justify-content:space-between;align-items:center;min-height:48px}
+.elinstyle-surface [data-elinstyle-catalog] .toolbar label{font-size:14px;color:var(--muted)}
+.elinstyle-surface [data-elinstyle-catalog] .toolbar select{width:300px;margin-inline-start:32px}
+.elinstyle-surface [data-elinstyle-catalog] .chips{min-height:88px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding-block:16px}
+.elinstyle-surface [data-elinstyle-catalog] .chips .catalog-chip{background:var(--pale);border:0;padding:6px 14px;min-height:36px}
+.elinstyle-surface [data-elinstyle-catalog] .pagination{margin-top:44px;border-top:1px solid var(--line);padding-top:24px;text-align:center;color:var(--muted)}
+.elinstyle-surface [data-elinstyle-catalog] .pagination span{display:inline-block;background:var(--olive);color:white;padding:8px 20px;margin-top:16px}
+@media (max-width:1100px){.elinstyle-surface [data-elinstyle-catalog].shop-layout{gap:40px;grid-template-columns:230px minmax(0,1fr)}
+.elinstyle-surface [data-elinstyle-catalog] .toolbar select{width:180px;margin-inline-start:10px}}
+@media (max-width:700px){.elinstyle-surface [data-elinstyle-catalog].shop-layout{display:flex;flex-direction:column;gap:24px}
+.elinstyle-surface [data-elinstyle-catalog] .filters{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.elinstyle-surface [data-elinstyle-catalog] .filter-title{grid-column:1/-1;margin:8px 0}
+.elinstyle-surface [data-elinstyle-catalog] .filters fieldset{padding-bottom:16px;margin:0}
+.elinstyle-surface [data-elinstyle-catalog] .filters:after{display:none}
+.elinstyle-surface [data-elinstyle-catalog] .filters p{font-size:13px}
+.elinstyle-surface [data-elinstyle-catalog] .sizes{gap:3px}
+.elinstyle-surface [data-elinstyle-catalog] .sizes span{padding:4px}
+.elinstyle-surface [data-elinstyle-catalog] .filters input[type=number]{font-size:11px}
+.elinstyle-surface [data-elinstyle-catalog] .toolbar select{width:150px;margin:0}
+.elinstyle-surface [data-elinstyle-catalog] .toolbar label{font-size:12px}}
+.elinstyle-surface [data-elinstyle-catalog] .filters label small{font-variant-numeric:normal}
+.elinstyle-surface [data-elinstyle-catalog] .filters [name="color[]"]+span:before{content:"";display:inline-block;width:18px;height:18px;margin-inline-end:8px;vertical-align:middle;border:1px solid #818775;border-radius:50%;background:var(--swatch)}
+.elinstyle-surface [data-elinstyle-catalog] .filters [name="color[]"][value=شیری]+span{--swatch:#EDE7D6}
+.elinstyle-surface [data-elinstyle-catalog] .filters [name="color[]"][value=زیتونی]+span{--swatch:#62694A}
+.elinstyle-surface [data-elinstyle-catalog] .filters [name="color[]"][value=زغالی]+span{--swatch:#494B47}
+.elinstyle-surface [data-elinstyle-catalog] .filters [name="color[]"][value=جوگندمی]+span{--swatch:#C4B99F}
+.elinstyle-surface [data-elinstyle-catalog] .filters [data-all]:before{content:"◉";color:var(--olive);margin-inline-end:10px}
+.elinstyle-surface [data-elinstyle-catalog] .filters fieldset{min-inline-size:0}
+.elinstyle-surface [data-elinstyle-catalog] .filters legend{float:right;width:100%}
+.elinstyle-surface [data-elinstyle-catalog] .filters fieldset>label:first-of-type{clear:both}
+.elinstyle-surface [data-elinstyle-catalog] .filters legend{float:none;width:auto;padding:0}
+.elinstyle-surface [data-elinstyle-catalog] .sizes{width:100%;clear:both}
+.elinstyle-surface [data-elinstyle-catalog] .sizes label{min-width:0}
+.elinstyle-surface [data-elinstyle-catalog] .sizes input{inset:0;margin:0;width:100%!important;height:100%!important}
+.elinstyle-surface [data-elinstyle-catalog] .filters [data-all]:before{content:"";width:14px;height:14px;border:1px solid var(--olive);border-radius:50%;vertical-align:middle;display:inline-block;background:radial-gradient(var(--olive) 0 3px,transparent 4px)}
+.elinstyle-surface [data-elinstyle-catalog] .chips .catalog-chip{transition:background-color 180ms ease-out,color 180ms ease-out,border-color 180ms ease-out,box-shadow 180ms ease-out,transform 180ms ease-out}
+
+.elinstyle-surface [data-elinstyle-catalog] .catalog-form{display:contents}
+.elinstyle-surface [data-elinstyle-catalog] .filter-title a{font-weight:400}
+.elinstyle-surface [data-elinstyle-catalog] .catalog-chip{display:inline-block;line-height:inherit}
+.elinstyle-surface [data-elinstyle-catalog] .catalog-chip:focus-visible{outline:2px solid var(--olive);outline-offset:3px}
+.elinstyle-surface [data-elinstyle-catalog] .catalog-live:empty{display:none}
+.elinstyle-surface [data-elinstyle-catalog] .catalog-live{position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden;white-space:nowrap;margin:0}
+.elinstyle-surface [data-elinstyle-catalog] .catalog-live.is-error{position:static;clip-path:none;width:auto;height:auto;white-space:normal;padding:12px;border:1px solid #9b3434;color:#9b3434}
+.elinstyle-surface [data-elinstyle-catalog] [data-all][aria-current="false"]:before{background:none}
+.elinstyle-surface [data-elinstyle-catalog][aria-busy="true"] .shop-results{opacity:.7}

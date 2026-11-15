@@ -1,0 +1,9 @@
+{
+  "name": "elinstyle-wordpress-tests",
+  "private": true,
+  "version": "0.3.0",
+  "type": "commonjs",
+  "author": {"name": "Iman Shadmehri", "url": "https://elinweb.ir"},
+  "scripts": {"lint": "node lint.cjs", "smoke": "node smoke.cjs", "catalog": "node archive-interaction-qa.cjs", "account": "node account-qa.cjs"},
+  "dependencies": {"@playwright/test": "1.65.1"}
+}

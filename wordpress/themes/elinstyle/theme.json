@@ -1,0 +1,210 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "layout": {
+      "contentSize": "1312px",
+      "wideSize": "1440px"
+    },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "bg",
+          "name": "bg",
+          "color": "#F7F5EF"
+        },
+        {
+          "slug": "ink",
+          "name": "ink",
+          "color": "#242622"
+        },
+        {
+          "slug": "muted",
+          "name": "muted",
+          "color": "#64675E"
+        },
+        {
+          "slug": "olive",
+          "name": "olive",
+          "color": "#4D593C"
+        },
+        {
+          "slug": "sand",
+          "name": "sand",
+          "color": "#EAE6DA"
+        },
+        {
+          "slug": "line",
+          "name": "line",
+          "color": "#DADCD2"
+        },
+        {
+          "slug": "pale",
+          "name": "pale",
+          "color": "#E8ECDF"
+        }
+      ]
+    },
+    "spacing": {
+      "units": [
+        "px",
+        "rem",
+        "%"
+      ],
+      "spacingSizes": [
+        {
+          "slug": "4",
+          "name": "4",
+          "size": "4px"
+        },
+        {
+          "slug": "8",
+          "name": "8",
+          "size": "8px"
+        },
+        {
+          "slug": "12",
+          "name": "12",
+          "size": "12px"
+        },
+        {
+          "slug": "16",
+          "name": "16",
+          "size": "16px"
+        },
+        {
+          "slug": "20",
+          "name": "20",
+          "size": "20px"
+        },
+        {
+          "slug": "24",
+          "name": "24",
+          "size": "24px"
+        },
+        {
+          "slug": "32",
+          "name": "32",
+          "size": "32px"
+        },
+        {
+          "slug": "40",
+          "name": "40",
+          "size": "40px"
+        },
+        {
+          "slug": "48",
+          "name": "48",
+          "size": "48px"
+        },
+        {
+          "slug": "56",
+          "name": "56",
+          "size": "56px"
+        },
+        {
+          "slug": "64",
+          "name": "64",
+          "size": "64px"
+        },
+        {
+          "slug": "80",
+          "name": "80",
+          "size": "80px"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "slug": "yekan",
+          "name": "Yekan Bakh",
+          "fontFamily": "Yekan, Arial, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Yekan",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": [
+                "file:./assets/fonts/YekanBakh-Regular.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Yekan",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "src": [
+                "file:./assets/fonts/YekanBakh-SemiBold.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Yekan",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "src": [
+                "file:./assets/fonts/YekanBakh-Bold.ttf"
+              ]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "12",
+          "name": "12",
+          "size": "12px"
+        },
+        {
+          "slug": "14",
+          "name": "14",
+          "size": "14px"
+        },
+        {
+          "slug": "16",
+          "name": "16",
+          "size": "16px"
+        },
+        {
+          "slug": "20",
+          "name": "20",
+          "size": "20px"
+        },
+        {
+          "slug": "26",
+          "name": "26",
+          "size": "26px"
+        },
+        {
+          "slug": "34",
+          "name": "34",
+          "size": "34px"
+        },
+        {
+          "slug": "38",
+          "name": "38",
+          "size": "38px"
+        },
+        {
+          "slug": "66",
+          "name": "66",
+          "size": "66px"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|bg",
+      "text": "var:preset|color|ink"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|yekan",
+      "fontSize": "16px",
+      "lineHeight": "1.8"
+    },
+    "spacing": {
+      "blockGap": "0px"
+    }
+  }
+}

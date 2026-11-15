@@ -1,0 +1,2 @@
+<?php defined( 'ABSPATH' ) || exit; ?>
+<dialog id="notice"><button aria-label="بستن" class="iconbtn close">×</button><h2 id="notice-title"></h2><p>این بخش در نسخهٔ نمایشی صفحهٔ مستقلی ندارد. هیچ سفارش، ورود یا پرداختی انجام نمی‌شود.</p><button class="btn close">متوجه شدم</button></dialog>

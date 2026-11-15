@@ -1,0 +1,8 @@
+<?php
+/**
+ * Title: فروشگاه
+ * Slug: elinstyle/shop
+ * Categories: elinstyle
+ */
+?>
+<!-- wp:group {"className":"elinstyle-surface","tagName":"main","anchor":"main"} --><main id="main" class="wp-block-group elinstyle-surface"><!-- wp:group {"className":"page-heading wrap"} --><div class="wp-block-group page-heading wrap"><!-- wp:group {"className":"crumb"} --><div class="wp-block-group crumb"><!-- wp:elinstyle/fragment --><a href="<?php echo esc_url( home_url( '/' ) ); ?>">خانه</a><!-- /wp:elinstyle/fragment --><!-- wp:paragraph {"className":"elin-inline"} --><p class="elin-inline"> / فروشگاه</p><!-- /wp:paragraph --></div><!-- /wp:group --><!-- wp:heading {"level":1} --><h1 class="wp-block-heading">همهٔ محصولات</h1><!-- /wp:heading --><!-- wp:paragraph --><p>انتخاب‌های ساده برای کمد روزمره؛ زنانه، مردانه و لباس‌های پایه.</p><!-- /wp:paragraph --></div><!-- /wp:group --><!-- wp:elinstyle/catalog {"mode":"shop"} /--><!-- wp:group {"className":"wrap size-banner"} --><div class="wp-block-group wrap size-banner"><!-- wp:group --><div class="wp-block-group"><!-- wp:heading {"level":3} --><h3 class="wp-block-heading">انتخاب اندازهٔ مطمئن</h3><!-- /wp:heading --><!-- wp:paragraph --><p>پیش از انتخاب، راهنمای اندازه و تن‌خور را ببینید.</p><!-- /wp:paragraph --></div><!-- /wp:group --><!-- wp:elinstyle/fragment --><button class="textbutton" data-demo="راهنمای اندازه">راهنمای اندازه</button><!-- /wp:elinstyle/fragment --></div><!-- /wp:group --></main><!-- /wp:group -->

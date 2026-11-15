@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-15",
+  "version": "0.3.0",
+  "php74_syntax_files": 34,
+  "php74_syntax_passed": true,
+  "read_only_local_smoke": [
+    "shop",
+    "login",
+    "guest-account"
+  ],
+  "widths": [
+    1440,
+    390
+  ],
+  "private_file_patterns_found": 0,
+  "known_secret_patterns_found": 0,
+  "raw_customer_evidence_included": false
+}

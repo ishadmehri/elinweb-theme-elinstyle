@@ -1,0 +1,58 @@
+{
+  "version": "0.3.0",
+  "date": "2026-11-15",
+  "runtime": {
+    "wordpress": "7.1.4",
+    "woocommerce": "10.8.0",
+    "php": "8.2.29",
+    "mysql": "8.4.0"
+  },
+  "php74": {
+    "version": "7.4.30",
+    "files": 34,
+    "passed": true
+  },
+  "account": {
+    "passed": true,
+    "checks": [
+      "guest protected endpoint",
+      "password eye preserves raw value",
+      "wrong login generic; identifier kept and password cleared",
+      "username without @ native success and external redirect rejected",
+      "other customer order denied",
+      "owned order available",
+      "native account save",
+      "native address save",
+      "native logout",
+      "recovery indistinguishable for existing/missing identifiers"
+    ],
+    "edge_passed": true,
+    "edge_checks": [
+      "invalid login nonce rejected",
+      "email login and empty account without payment action",
+      "expired session cannot save account",
+      "invalid reset token rejected",
+      "native reset mismatch rejected",
+      "native password reset and one-use token"
+    ],
+    "valid_saved_reopened_editor_documents": 2
+  },
+  "archive": {
+    "passed": true,
+    "query_cases": 16,
+    "matching_filter_geometry_cases": 20
+  },
+  "purchase_regression_passed": true,
+  "baseline_pages": 5,
+  "baseline_editor_documents": 7,
+  "temporary_credentials_removed": true,
+  "temporary_account_fixtures_removed": true,
+  "not_tested": [
+    "real external email delivery",
+    "active registration flow (disabled store setting)",
+    "real payment",
+    "screen reader",
+    "PHPCS/WPCS",
+    "Elementor"
+  ]
+}
