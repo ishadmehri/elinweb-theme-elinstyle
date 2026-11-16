@@ -109,10 +109,16 @@ function elinstyle_catalog_cards( $query, $shop ) {
 	foreach ( $query->posts as $post ) {
 		$product = wc_get_product( $post->ID );
 		if ( ! $product || ! $product->is_visible() ) { continue; } ?>
-		<article class="product"><a class="product-photo" href="<?php echo esc_url( $product->get_permalink() ); ?>"><?php echo wp_kses_post( $product->get_image( 'woocommerce_single' ) ); ?></a>
+		<article class="product"><a class="product-photo" href="<?php echo esc_url( $product->get_permalink() ); ?>"><?php
+		// Keep the original image detail; WordPress supplies responsive sources when available.
+		$sizes = $shop ? '(max-width: 700px) calc((100vw - 54px) / 2), (max-width: 1100px) calc((100vw - 430px) / 2), (max-width: 1440px) calc((100vw - 488px) / 2), 476px' : '(max-width: 700px) calc((100vw - 54px) / 2), (max-width: 1440px) calc((100vw - 200px) / 4), 310px';
+		echo wp_kses_post( $product->get_image( 'full', array( 'sizes' => $sizes, 'decoding' => 'async' ) ) );
+		?></a>
 		<h3><a href="<?php echo esc_url( $product->get_permalink() ); ?>"><?php echo esc_html( $product->get_name() ); ?></a></h3>
 		<p><?php echo esc_html( trim( $product->get_attribute( 'pa_fabric' ) . ' · ' . $product->get_attribute( 'pa_color' ), ' ·' ) ); ?></p>
 		<div class="price"><?php echo elinstyle_price_markup( $product->get_price_html() ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- sanitized price helper. ?></div>
+		<?php $colors = wp_get_post_terms( $product->get_id(), 'pa_color' ); ?>
+		<?php if ( ! is_wp_error( $colors ) && $colors ) : ?><div class="swatches" aria-hidden="true"><?php foreach ( $colors as $color ) : ?><span style="background:<?php echo esc_attr( elinstyle_catalog_swatch( $color ) ); ?>"></span><?php endforeach; ?></div><?php endif; ?>
 		<?php if ( ! $product->is_in_stock() ) : ?><p><?php esc_html_e( 'ناموجود', 'elinstyle-companion' ); ?></p><?php endif; ?>
 		</article>
 	<?php }

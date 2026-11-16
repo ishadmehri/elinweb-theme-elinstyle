@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-16T16:55:51.632Z",
+  "base": "http://127.0.0.1:9421",
+  "checks": [
+    "custom faceted widget returned real Woo filtered products",
+    "native Pro size popup opened tabs and closed by Escape",
+    "native popup fits mobile viewport",
+    "native mobile menu toggles",
+    "native login error returned with identifier retained password cleared and eye toggle preserving raw value",
+    "valid Woo login and logged-in login-page redirect use owned account destination",
+    "native product widgets enforce variation stock and add available variation to Woo session cart",
+    "native Pro cart updates quantity and applies real disposable Woo coupon",
+    "native checkout calculated shipping discount and created only a local disposable unpaid order"
+  ],
+  "errors": [],
+  "popupMobile": {
+    "viewport": 390,
+    "width": 390,
+    "overflow": false
+  },
+  "loginError": "ورود انجام نشد؛ اطلاعات ورود را بررسی کن.",
+  "order": {
+    "received": true,
+    "id": 235,
+    "payment": "local BACS test; no transfer",
+    "externalEmailTested": false
+  },
+  "passed": true
+}

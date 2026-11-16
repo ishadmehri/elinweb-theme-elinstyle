@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-16T17:40:47.389Z",
+  "base": "http://127.0.0.1:9421",
+  "cases": [
+    {
+      "key": "checkout",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-checkout/",
+      "filename": "checkout-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "پرداخت — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 27,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "ثبت سفارش و پرداخت",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "checkout",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-checkout/",
+      "filename": "checkout-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "پرداخت — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 27,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "ثبت سفارش و پرداخت",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    }
+  ],
+  "errors": [],
+  "assetErrors": [],
+  "passed": true
+}

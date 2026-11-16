@@ -1,5 +1,6 @@
 <?php
 defined( 'ABSPATH' ) || exit;
+function elinstyle_is_login_page() { return is_page( 'login' ) || 'login' === get_post_meta( get_queried_object_id(), '_elinstyle_demo_key', true ); }
 function elinstyle_account_destination( $url ) {
 	$fallback = wc_get_page_permalink( 'myaccount' );
 	$url = wp_validate_redirect( $url, $fallback );
@@ -22,9 +23,10 @@ add_action( 'wp_loaded', function () {
 	if ( isset( $_POST['elinstyle_auth'], $_POST['login'] ) && ! wp_verify_nonce( isset( $_POST['woocommerce-login-nonce'] ) ? sanitize_text_field( wp_unslash( $_POST['woocommerce-login-nonce'] ) ) : '', 'woocommerce-login' ) ) { wc_add_notice( __( 'نشست فرم معتبر نیست؛ صفحه را تازه کن.', 'elinstyle-companion' ), 'error' ); }
 }, 21 );
 add_action( 'template_redirect', function () {
-	if ( function_exists( 'is_account_page' ) && ( is_account_page() || is_page( 'login' ) ) ) {
+	if ( function_exists( 'is_account_page' ) && ( is_account_page() || elinstyle_is_login_page() ) ) {
 		nocache_headers();
-		if ( is_page( 'login' ) && is_user_logged_in() ) { wp_safe_redirect( wc_get_page_permalink( 'myaccount' ) ); exit; }
+		$editor = current_user_can( 'edit_post', get_queried_object_id() ) && isset( $_GET['elementor-preview'] );
+		if ( elinstyle_is_login_page() && is_user_logged_in() && ! $editor ) { wp_safe_redirect( wc_get_page_permalink( 'myaccount' ) ); exit; }
 	}
 } );
 function elinstyle_render_account() {

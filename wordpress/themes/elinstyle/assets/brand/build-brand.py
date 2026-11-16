@@ -4,9 +4,9 @@ from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.transformPen import TransformPen
-import json,hashlib
+import json,hashlib,os
 ROOT=Path(__file__).resolve().parent
-font_path=Path(r'D:\Fonts\fontiran\YekanBakh3-ProPlus\Pro+\Yekan Bakh Family\ttf\YekanBakh-Bold.ttf')
+font_path=Path(os.environ['ELINSTYLE_BRAND_FONT'])
 font=TTFont(font_path); glyphs=font.getGlyphSet(); cmap=font.getBestCmap()
 pen=SVGPathPen(glyphs); bounds=BoundsPen(glyphs);cursor=0
 for char in 'elinstyle':
@@ -28,5 +28,5 @@ for filename,color,fold,text in [('logo.svg','#4D593C','#9AA781','#242622'),('lo
 svg('mark.svg','elinstyle — نشانهٔ لیبل تاخورده',mark('#4D593C','#9AA781'),'0 0 40 42',40,42)
 # Solid tile preserves a legible silhouette against both browser tab themes.
 svg('favicon.svg','elinstyle', '<rect width="48" height="48" rx="10" fill="#4D593C"/><g transform="translate(4 3)">'+mark('#F7F5EF','#A6B58E')+'</g>','0 0 48 48',48,48)
-(ROOT/'brand-evidence.json').write_text(json.dumps({'fontSource':str(font_path),'fontSha256':hashlib.sha256(font_path.read_bytes()).hexdigest(),'lettering':'elinstyle lowercase; outlined paths only','logoViewBox':[0,0,total,42],'externalDependencies':False},ensure_ascii=False,indent=2),encoding='utf-8')
+(ROOT/'brand-evidence.json').write_text(json.dumps({'fontSource':font_path.name,'fontSha256':hashlib.sha256(font_path.read_bytes()).hexdigest(),'lettering':'elinstyle lowercase; outlined paths only','logoViewBox':[0,0,total,42],'externalDependencies':False},ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'Created four brand SVGs; wordmark viewBox {total} x 42')

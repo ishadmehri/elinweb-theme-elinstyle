@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "phase": "elementor",
+  "checks": [
+    "capability gate before writes",
+    "strict demo type whitelist",
+    "foreign slug conflict retained",
+    "concurrent imports rejected",
+    "mid-import failure persisted document media and menu journal",
+    "edited incomplete document protected",
+    "edited media protected",
+    "new media used by foreign content protected",
+    "foreign inline image protected",
+    "foreign Elementor JSON image protected",
+    "selected site settings kit protected",
+    "native library type used by foreign content protected",
+    "edited menu item protected",
+    "foreign addition to owned menu protected",
+    "rollback removed only new owned objects",
+    "failed import resumed with stable IDs and complete real content",
+    "repeat retained IDs media menu and user edits",
+    "home Woo menu and kit unchanged without selection",
+    "second demo coexists and preserves Gutenberg edit",
+    "bundled logos imported without enabling user SVG uploads"
+  ],
+  "versions": {
+    "wp": "7.1.4",
+    "php": "8.2.29",
+    "woo": "10.8.0",
+    "elementor": "4.3.3",
+    "pro": "4.3.3"
+  },
+  "snapshot": {
+    "posts": 108,
+    "terms": 21,
+    "settings": [
+      "posts",
+      "0",
+      "5",
+      "6",
+      "7",
+      "8",
+      "71",
+      {
+        "nav_menu_locations": [],
+        "custom_css_post_id": -1
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-16T17:25:44.443Z",
+  "base": "http://127.0.0.1:9421",
+  "document": 56,
+  "checks": [
+    "title edited through visible native Content control",
+    "native Style tab available after color typography and responsive settings commands",
+    "native Publish button saved document",
+    "save and reopen retained text color typography desktop and mobile spacing",
+    "frontend desktop and mobile computed styles changed without stylesheet locks",
+    "approved demonstration restored through editor and saved"
+  ],
+  "errors": [],
+  "elementIds": {
+    "hero": "000010b",
+    "copy": "0000108",
+    "heading": "0000104"
+  },
+  "computed": {
+    "color": "rgb(123, 63, 32)",
+    "size": "62px"
+  },
+  "passed": true
+}

@@ -3,7 +3,15 @@
 defined( 'ABSPATH' ) || exit;
 require_once __DIR__ . '/inc/commerce.php';
 add_filter( 'woocommerce_locate_template', function ( $template, $name ) {
+	$elementor = function_exists( 'elinstyle_is_elementor_content' ) && elinstyle_is_elementor_content();
+	// Woo/Pro refresh requests do not have a queried page. Keep their endpoint
+	// template family consistent with the explicitly assigned Woo page.
+	if ( ! get_queried_object_id() && function_exists( 'wc_get_page_id' ) ) {
+		$route = 0 === strpos( $name, 'myaccount/' ) ? 'myaccount' : ( 0 === strpos( $name, 'cart/' ) ? 'cart' : ( 0 === strpos( $name, 'checkout/' ) ? 'checkout' : '' ) );
+		if ( $route && 'builder' === get_post_meta( wc_get_page_id( $route ), '_elementor_edit_mode', true ) ) { $elementor = true; }
+	}
 	if ( 0 === strpos( $name, 'myaccount/' ) && ! function_exists( 'elinstyle_render_account' ) ) { return WC()->plugin_path() . '/templates/' . $name; }
+	if ( $elementor && 0 === strpos( $template, get_template_directory() . '/woocommerce/' ) && ( 0 === strpos( $name, 'myaccount/' ) || 0 === strpos( $name, 'cart/' ) || 0 === strpos( $name, 'checkout/' ) ) ) { return WC()->plugin_path() . '/templates/' . $name; }
 	return $template;
 }, 20, 2 );
 
@@ -15,6 +23,7 @@ function elinstyle_setup() {
 	add_theme_support( 'align-wide' );
 	add_theme_support( 'editor-styles' );
 	add_theme_support( 'woocommerce' );
+	register_nav_menus( array( 'elinstyle_primary' => __( 'منوی اصلی الین‌استایل', 'elinstyle' ) ) );
 	add_editor_style( 'assets/editor.css' );
 	register_block_pattern_category( 'elinstyle', array( 'label' => __( 'الین‌استایل', 'elinstyle' ) ) );
 }
@@ -35,7 +44,11 @@ function elinstyle_block_assets() {
 add_action( 'enqueue_block_assets', 'elinstyle_block_assets' );
 
 function elinstyle_front_assets() {
-	if ( function_exists( 'is_account_page' ) && ( is_account_page() || is_page( 'login' ) ) ) { wp_enqueue_script( 'elinstyle-account', get_template_directory_uri() . '/assets/account.js', array(), elinstyle_asset_version( 'account.js' ), true ); }
+	wp_register_script( 'elinstyle-catalog', get_template_directory_uri() . '/assets/catalog.js', array( 'wp-i18n' ), elinstyle_asset_version( 'catalog.js' ), true );
+	// Elementor/Pro owns its forms, menus, product and popup controllers. The
+	// Gutenberg cart enhancer captures native form submits and must stay scoped.
+	if ( function_exists( 'elinstyle_is_elementor_content' ) && elinstyle_is_elementor_content() ) { return; }
+	if ( function_exists( 'is_account_page' ) && ( is_account_page() || ( function_exists( 'elinstyle_is_login_page' ) && elinstyle_is_login_page() ) ) ) { wp_enqueue_script( 'elinstyle-account', get_template_directory_uri() . '/assets/account.js', array(), elinstyle_asset_version( 'account.js' ), true ); }
 	if ( function_exists( 'is_shop' ) && is_shop() ) {
 		wp_enqueue_script( 'elinstyle-catalog', get_template_directory_uri() . '/assets/catalog.js', array( 'wp-i18n' ), elinstyle_asset_version( 'catalog.js' ), true );
 	}
@@ -56,7 +69,7 @@ function elinstyle_front_assets() {
 	) );
 }
 add_action( 'wp_enqueue_scripts', 'elinstyle_front_assets' );
-add_filter( 'body_class', function ( $classes ) { $classes[] = 'elinstyle-surface'; return $classes; } );
+add_filter( 'body_class', function ( $classes ) { if ( ! function_exists( 'elinstyle_is_elementor_content' ) || ! elinstyle_is_elementor_content() ) { $classes[] = 'elinstyle-surface'; } return $classes; } );
 
 /** Shared parts are editable reusable blocks after explicit demo import. */
 function elinstyle_part( $name ) {

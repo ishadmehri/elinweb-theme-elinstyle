@@ -1,0 +1,159 @@
+{
+  "files": 38,
+  "passed": true,
+  "php": "7.4.30",
+  "checks": [
+    {
+      "passed": true,
+      "file": "theme/elinstyle/footer.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/functions.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/header.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/index.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/notice.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/inc/commerce.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/about.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/account.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/article.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/cart.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/checkout.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/contact.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/footer.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/header.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/index.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/product.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/patterns/shop.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/cart/cart.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/checkout/form-checkout.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/myaccount/dashboard.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/myaccount/elinstyle-editorial.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/myaccount/form-login.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/myaccount/form-lost-password.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/myaccount/form-reset-password.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/myaccount/lost-password-confirmation.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/myaccount/my-account.php"
+    },
+    {
+      "passed": true,
+      "file": "theme/elinstyle/woocommerce/myaccount/navigation.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/account.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/catalog.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/commerce.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/elementor-widgets.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/elementor.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/elinstyle-companion.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/importer-admin.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/importer.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/product.php"
+    },
+    {
+      "passed": true,
+      "file": "plugins/elinstyle-companion/views/product.php"
+    }
+  ]
+}

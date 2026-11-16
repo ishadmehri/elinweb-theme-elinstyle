@@ -8,8 +8,8 @@
 
 | مسیر در سایت Local | مقصد junction |
 |---|---|
-| `<LOCAL_USER>\Local Sites\elistyle\app\public\wp-content\themes\elinstyle` | `D:\programming\ChatGPTdev\elinstyle-wordpress\theme\elinstyle` |
-| `<LOCAL_USER>\Local Sites\elistyle\app\public\wp-content\plugins\elinstyle-companion` | `D:\programming\ChatGPTdev\elinstyle-wordpress\plugins\elinstyle-companion` |
+| `<LOCAL_USER>\Local Sites\elistyle\app\public\wp-content\themes\elinstyle` | `<wordpress-project>\theme\elinstyle` |
+| `<LOCAL_USER>\Local Sites\elistyle\app\public\wp-content\plugins\elinstyle-companion` | `<wordpress-project>\plugins\elinstyle-companion` |
 
 هر دو اتصال از نوع Junction هستند و قالب و Companion فعال‌اند؛ `qa/elistyle-local/junctions.json` شاهد واقعی است. ویرایش سورس D مستقیماً در سایت اثر دارد. نسخهٔ CSS/JS قالب از زمان تغییر فایل تولید می‌شود تا مرورگر پس از reload فایل قدیمی نگه ندارد. staging داخل workspace با سورس D همسان نگهداری شده است.
 

@@ -1,0 +1,78 @@
+{
+  "source": "approved static HTML (read-only)",
+  "cases": [
+    {
+      "key": "home",
+      "width": 1440,
+      "sha256": "32b84d42022e58d3dd2c080ed43441c17b76cd75f9c366e6a61d67b98667043c",
+      "filename": "home-1440.png"
+    },
+    {
+      "key": "shop",
+      "width": 1440,
+      "sha256": "f1602e354ffc48ab97acc6f97d0d01949df927ed060750e860eef82033c9dace",
+      "filename": "shop-1440.png"
+    },
+    {
+      "key": "login",
+      "width": 1440,
+      "sha256": "8295fe05f22c68eb33d8855347c1189cd5294f06ed0482d3f6c58114deb35d22",
+      "filename": "login-1440.png"
+    },
+    {
+      "key": "about",
+      "width": 1440,
+      "sha256": "a5670586b7e1ab3dbda7bef152f70cbb53425d464132166058f720a0b22e7e70",
+      "filename": "about-1440.png"
+    },
+    {
+      "key": "article",
+      "width": 1440,
+      "sha256": "920f4bf9f4d3b61547244634f3eca7657c68c5dda9b07a5a623c230fc985673e",
+      "filename": "article-1440.png"
+    },
+    {
+      "key": "contact",
+      "width": 1440,
+      "sha256": "34842ccfe49904faa589f4019be3400e61bcd51a641aa466a5e27e239220138f",
+      "filename": "contact-1440.png"
+    },
+    {
+      "key": "home",
+      "width": 390,
+      "sha256": "32b84d42022e58d3dd2c080ed43441c17b76cd75f9c366e6a61d67b98667043c",
+      "filename": "home-390.png"
+    },
+    {
+      "key": "shop",
+      "width": 390,
+      "sha256": "f1602e354ffc48ab97acc6f97d0d01949df927ed060750e860eef82033c9dace",
+      "filename": "shop-390.png"
+    },
+    {
+      "key": "login",
+      "width": 390,
+      "sha256": "8295fe05f22c68eb33d8855347c1189cd5294f06ed0482d3f6c58114deb35d22",
+      "filename": "login-390.png"
+    },
+    {
+      "key": "about",
+      "width": 390,
+      "sha256": "a5670586b7e1ab3dbda7bef152f70cbb53425d464132166058f720a0b22e7e70",
+      "filename": "about-390.png"
+    },
+    {
+      "key": "article",
+      "width": 390,
+      "sha256": "920f4bf9f4d3b61547244634f3eca7657c68c5dda9b07a5a623c230fc985673e",
+      "filename": "article-390.png"
+    },
+    {
+      "key": "contact",
+      "width": 390,
+      "sha256": "34842ccfe49904faa589f4019be3400e61bcd51a641aa466a5e27e239220138f",
+      "filename": "contact-390.png"
+    }
+  ],
+  "passed": true
+}

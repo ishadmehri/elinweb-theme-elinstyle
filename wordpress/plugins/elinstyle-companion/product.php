@@ -105,6 +105,8 @@ add_action( 'init', function () {
 	foreach ( array( 'product' => 'elinstyle_render_product', 'product-content' => 'elinstyle_render_product_content' ) as $name => $callback ) {
 		register_block_type( 'elinstyle/' . $name, array( 'api_version' => 3, 'editor_script' => 'elinstyle-blocks', 'attributes' => array( 'productId' => array( 'type' => 'number', 'default' => 0 ), 'part' => array( 'type' => 'string', 'default' => 'description' ) ), 'render_callback' => $callback ) );
 	}
+} );
+add_action( 'rest_api_init', function () {
 	register_rest_route( 'elinstyle/v1', '/products/(?P<id>\d+)', array( 'methods' => 'GET', 'permission_callback' => '__return_true', 'callback' => function ( $request ) {
 		$product = elinstyle_current_product( array( 'productId' => absint( $request['id'] ) ) );
 		if ( ! $product ) { return new WP_Error( 'not_found', __( 'محصول پیدا نشد.', 'elinstyle-companion' ), array( 'status' => 404 ) ); }

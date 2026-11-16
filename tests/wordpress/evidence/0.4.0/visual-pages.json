@@ -1,0 +1,639 @@
+{
+  "date": "2026-11-16T17:34:49.429Z",
+  "base": "http://127.0.0.1:9421",
+  "cases": [
+    {
+      "key": "home",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/",
+      "filename": "home-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "الین‌استایل — آزمایش المنتور",
+        "widgets": 59,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "سادگی، به سبک تو.",
+          "کمدت را از اینجا بساز",
+          "منتخب این روزها",
+          "بافت ساده روزمره",
+          "شلوار واید زنانه",
+          "اورشرت مردانه",
+          "پیراهن آزاد زنانه",
+          "یک کمد ساده.ترکیب‌های بی‌شمار.",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "shop",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-shop/",
+      "filename": "shop-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "فروشگاه — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 31,
+        "catalog": 1,
+        "products": 4,
+        "headings": [
+          "همهٔ محصولات",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "login",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-login/",
+      "filename": "login-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "ورود — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 36,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "ورود به حساب",
+          "دوباره خوش آمدی",
+          "همراه انتخاب‌های روزمرهٔ تو.",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": true
+      }
+    },
+    {
+      "key": "product",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/product/%d9%be%db%8c%d8%b1%d8%a7%d9%87%d9%86-%d8%a2%d8%b2%d8%a7%d8%af-%d8%b2%d9%86%d8%a7%d9%86%d9%87/",
+      "filename": "product-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "پیراهن آزاد زنانه – الین‌استایل — آزمایش المنتور",
+        "widgets": 34,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "پیراهن آزاد زنانه",
+          "توضیحات تکمیلی",
+          "نقد و بررسی‌ها",
+          "کنار این انتخاب",
+          "محصولات مرتبط",
+          "شلوار واید زنانه",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "about",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-about/",
+      "filename": "about-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "درباره ما — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 49,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "همراه روزهای تو.",
+          "لباس برای زندگی، با سلیقهٔ خودت.",
+          "سه اصل برای انتخابی ساده‌تر",
+          "از نگاه اول تا انتخاب تو",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "article",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-article/",
+      "filename": "article-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "راهنمای استایل — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 47,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "چطور با لباس‌های ساده،استایل روزمره بسازیم؟",
+          "۱. از روز خودت شروع کن",
+          "۲. رنگ‌ها را محدود، انتخاب‌ها را بیشتر کن",
+          "۳. تن‌خور را جدی‌تر از برچسب اندازه بگیر",
+          "۴. با لایه‌ها یک ترکیب تازه بساز",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "contact",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-contact/",
+      "filename": "contact-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "تماس — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 41,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "گفت‌وگو از اینجا شروع می‌شود.",
+          "راه‌های ارتباطی",
+          "پیامت را برای ما بنویس",
+          "شاید پاسخ اینجا باشد",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "cart",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-cart/",
+      "filename": "cart-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "سبد خرید — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 27,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "سبد خرید شما",
+          "مجموع سبد خرید",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "checkout",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-checkout/",
+      "filename": "checkout-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "پرداخت — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 27,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "ثبت سفارش و پرداخت",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "account",
+      "width": 1440,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-account/",
+      "filename": "account-1440.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "حساب — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 27,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "حساب کاربری",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 188,
+            "height": 41.984375
+          },
+          {
+            "width": 188,
+            "height": 41.984375
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "home",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/",
+      "filename": "home-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "الین‌استایل — آزمایش المنتور",
+        "widgets": 59,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "سادگی، به سبک تو.",
+          "کمدت را از اینجا بساز",
+          "منتخب این روزها",
+          "بافت ساده روزمره",
+          "شلوار واید زنانه",
+          "اورشرت مردانه",
+          "پیراهن آزاد زنانه",
+          "یک کمد ساده.ترکیب‌های بی‌شمار.",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "shop",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-shop/",
+      "filename": "shop-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "فروشگاه — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 31,
+        "catalog": 1,
+        "products": 4,
+        "headings": [
+          "همهٔ محصولات",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "login",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-login/",
+      "filename": "login-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "ورود — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 36,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "ورود به حساب",
+          "دوباره خوش آمدی",
+          "همراه انتخاب‌های روزمرهٔ تو.",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": true
+      }
+    },
+    {
+      "key": "product",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/product/%d9%be%db%8c%d8%b1%d8%a7%d9%87%d9%86-%d8%a2%d8%b2%d8%a7%d8%af-%d8%b2%d9%86%d8%a7%d9%86%d9%87/",
+      "filename": "product-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "پیراهن آزاد زنانه – الین‌استایل — آزمایش المنتور",
+        "widgets": 34,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "پیراهن آزاد زنانه",
+          "توضیحات تکمیلی",
+          "نقد و بررسی‌ها",
+          "کنار این انتخاب",
+          "محصولات مرتبط",
+          "شلوار واید زنانه",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "about",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-about/",
+      "filename": "about-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "درباره ما — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 49,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "همراه روزهای تو.",
+          "لباس برای زندگی، با سلیقهٔ خودت.",
+          "سه اصل برای انتخابی ساده‌تر",
+          "از نگاه اول تا انتخاب تو",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "article",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-article/",
+      "filename": "article-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "راهنمای استایل — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 47,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "چطور با لباس‌های ساده،استایل روزمره بسازیم؟",
+          "۱. از روز خودت شروع کن",
+          "۲. رنگ‌ها را محدود، انتخاب‌ها را بیشتر کن",
+          "۳. تن‌خور را جدی‌تر از برچسب اندازه بگیر",
+          "۴. با لایه‌ها یک ترکیب تازه بساز",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "contact",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-contact/",
+      "filename": "contact-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "تماس — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 41,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "گفت‌وگو از اینجا شروع می‌شود.",
+          "راه‌های ارتباطی",
+          "پیامت را برای ما بنویس",
+          "شاید پاسخ اینجا باشد",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "cart",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-cart/",
+      "filename": "cart-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "سبد خرید — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 27,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "سبد خرید شما",
+          "مجموع سبد خرید",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "checkout",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-checkout/",
+      "filename": "checkout-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "پرداخت — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 27,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "ثبت سفارش و پرداخت",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    },
+    {
+      "key": "account",
+      "width": 390,
+      "url": "http://127.0.0.1:9421/elin-elementor-040-account/",
+      "filename": "account-390.png",
+      "metrics": {
+        "rtl": "rtl",
+        "overflow": false,
+        "title": "حساب — المنتور – الین‌استایل — آزمایش المنتور",
+        "widgets": 27,
+        "catalog": 0,
+        "products": 0,
+        "headings": [
+          "حساب کاربری",
+          ""
+        ],
+        "logos": [
+          {
+            "width": 156,
+            "height": 34.828125
+          },
+          {
+            "width": 156,
+            "height": 34.828125
+          }
+        ],
+        "login": false
+      }
+    }
+  ],
+  "errors": [],
+  "assetErrors": [],
+  "passed": true
+}

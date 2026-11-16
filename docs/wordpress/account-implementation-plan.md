@@ -10,7 +10,7 @@
 
 مشخصات projects/01-apparel/design/login-design-spec.md و my-account-design-spec.md، SVGها و PNG کامل هر دو طرح بررسی شدند. چیدمان ورود با فرم راست و تصویر چپ، و حساب با منوی راست و محتوای چپ با سبک فعلی هماهنگ‌اند. دادهٔ کاربر، سفارش۱۰۴۲، نرخ۸۰۰۰۰ و جمع۱۵۷۰۰۰۰ در طرح فقط نمونه‌اند؛ در وردپرس از اطلاعات واقعی کاربر و سفارش ذخیره‌شده استفاده می‌شود.
 
-Frontend مالک login.html، my-account.html و دارایی‌هایشان در D:\programming\ChatGPTdev\elinstyle و staging implementation/elinstyle است. پیش از تبدیل، ACCOUNT-HANDOFF.md باید ready-for-wordpress باشد و هر دو صفحه، دارایی محلی و شواهد آزمون تحویل شوند. در بررسی فعلی این سه فایل در هر دو محل وجود ندارند؛ فایل نیمه‌تمام یا طراحی به‌تنهایی مبنای پیاده‌سازی قرار نمی‌گیرد. شاهد در qa/elistyle-local/account-readiness.json است.
+Frontend مالک login.html، my-account.html و دارایی‌هایشان در <approved-frontend> و staging implementation/elinstyle است. پیش از تبدیل، ACCOUNT-HANDOFF.md باید ready-for-wordpress باشد و هر دو صفحه، دارایی محلی و شواهد آزمون تحویل شوند. در بررسی فعلی این سه فایل در هر دو محل وجود ندارند؛ فایل نیمه‌تمام یا طراحی به‌تنهایی مبنای پیاده‌سازی قرار نمی‌گیرد. شاهد در qa/elistyle-local/account-readiness.json است.
 
 ## اتصال پیش‌بینی‌شده
 

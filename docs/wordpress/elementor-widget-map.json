@@ -1,0 +1,181 @@
+{
+  "version": "0.4.0",
+  "schema": "classic containers/widgets; no atomic widgets",
+  "templates": {
+    "home": {
+      "widgets": {
+        "text-editor": 15,
+        "heading": 11,
+        "button": 3,
+        "image": 1,
+        "woocommerce-products": 1,
+        "icon": 4
+      },
+      "containers": 26,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "shop": {
+      "widgets": {
+        "text-editor": 3,
+        "heading": 2,
+        "elinstyle-catalog": 1,
+        "button": 1
+      },
+      "containers": 6,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "article": {
+      "widgets": {
+        "text-editor": 10,
+        "heading": 7,
+        "image": 1,
+        "button": 5
+      },
+      "containers": 13,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "about": {
+      "widgets": {
+        "text-editor": 15,
+        "heading": 8,
+        "image": 1,
+        "button": 1
+      },
+      "containers": 18,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "contact": {
+      "widgets": {
+        "text-editor": 8,
+        "heading": 5,
+        "form": 1,
+        "button": 3
+      },
+      "containers": 14,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "cart": {
+      "widgets": {
+        "text-editor": 1,
+        "heading": 1,
+        "woocommerce-cart": 1
+      },
+      "containers": 3,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "checkout": {
+      "widgets": {
+        "text-editor": 1,
+        "heading": 1,
+        "woocommerce-checkout-page": 1
+      },
+      "containers": 3,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "account": {
+      "widgets": {
+        "text-editor": 1,
+        "heading": 1,
+        "woocommerce-my-account": 1
+      },
+      "containers": 3,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "login": {
+      "widgets": {
+        "text-editor": 5,
+        "heading": 3,
+        "login": 1,
+        "button": 2,
+        "image": 1
+      },
+      "containers": 6,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "product": {
+      "widgets": {
+        "woocommerce-product-images": 1,
+        "woocommerce-product-title": 1,
+        "woocommerce-product-price": 1,
+        "woocommerce-product-short-description": 1,
+        "woocommerce-product-add-to-cart": 1,
+        "button": 1,
+        "woocommerce-product-meta": 1,
+        "woocommerce-product-data-tabs": 1,
+        "heading": 1,
+        "woocommerce-product-related": 1
+      },
+      "containers": 6,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "header": {
+      "widgets": {
+        "text-editor": 1,
+        "image": 1,
+        "search-form": 1,
+        "button": 3,
+        "icon": 1,
+        "nav-menu": 1
+      },
+      "containers": 6,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "footer": {
+      "widgets": {
+        "image": 1,
+        "text-editor": 3,
+        "heading": 3,
+        "button": 9
+      },
+      "containers": 8,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "guide": {
+      "widgets": {
+        "heading": 1,
+        "text-editor": 2,
+        "tabs": 1
+      },
+      "containers": 1,
+      "css_location": "native controls; exceptions listed separately"
+    },
+    "kit": {
+      "widgets": {},
+      "containers": 0,
+      "css_location": "native controls; exceptions listed separately"
+    }
+  },
+  "css_exceptions": [
+    {
+      "template": "login",
+      "widget": "login",
+      "location": "widget Custom CSS",
+      "reason": "password eye placement absent from native Login controls",
+      "css": "selector .elementor-field-type-text{position:relative}selector .elinstyle-password-toggle{position:absolute;left:0;bottom:0;width:54px;height:54px;border:0;background:none;color:inherit}selector input[name=password]{padding-inline-end:54px}"
+    },
+    {
+      "template": "guide",
+      "widget": "tabs",
+      "location": "widget Custom CSS",
+      "reason": "classic Tabs table cells have no native per-cell style control",
+      "css": "selector table{width:100%;border-collapse:collapse}selector th,selector td{padding:12px;text-align:right;border-bottom:1px solid #DADCD2}"
+    },
+    {
+      "template": "kit",
+      "location": "Site Settings > Custom CSS",
+      "reason": "site-wide skip link is outside individual Elementor widgets",
+      "css": ".skip{position:absolute;inset-inline-start:16px;top:-100px;background:#fff;color:#242622;padding:8px 16px;z-index:10000}.skip:focus{top:0}"
+    }
+  ],
+  "custom_widget": {
+    "name": "elinstyle-catalog",
+    "reason": "faceted Woo multi-select filters, URL/history, slider/chips and server fallback are not provided by native Products",
+    "style_location": "widget-scoped existing catalog stylesheet + native widget controls",
+    "controls": [
+      "columns/responsive gap",
+      "product color and typography",
+      "filter typography and accent",
+      "sidebar width and layout gap"
+    ]
+  }
+}

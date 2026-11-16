@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "phase": "no-woo",
+  "checks": [
+    "missing Woo stopped before content and settings writes"
+  ],
+  "versions": {
+    "wp": "7.1.4",
+    "php": "8.2.29",
+    "woo": null,
+    "elementor": null,
+    "pro": null
+  },
+  "snapshot": {
+    "posts": 3,
+    "terms": 1,
+    "settings": [
+      "posts",
+      "0",
+      false,
+      false,
+      false,
+      false,
+      false,
+      {
+        "nav_menu_locations": []
+      }
+    ]
+  }
+}

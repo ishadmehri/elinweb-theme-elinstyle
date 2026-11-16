@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-16T17:31:51.880Z",
+  "base": "http://127.0.0.1:9421",
+  "checks": [
+    "Site Settings opened imported independent kit",
+    "site background and typography saved and reopened",
+    "frontend inherited changed Site Settings without theme CSS lock",
+    "site-wide accessibility CSS is visible in kit Custom CSS control",
+    "original kit appearance restored through native editor"
+  ],
+  "errors": [],
+  "computed": {
+    "background": "rgb(240, 239, 232)",
+    "fontSize": "18px"
+  },
+  "passed": true
+}

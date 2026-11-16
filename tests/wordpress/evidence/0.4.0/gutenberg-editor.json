@@ -1,0 +1,31 @@
+{
+  "base": "http://127.0.0.1:9422",
+  "cases": [
+    {
+      "key": "home",
+      "invalidBefore": [],
+      "invalidAfterReopen": [],
+      "saved": true
+    },
+    {
+      "key": "shop",
+      "invalidBefore": [],
+      "invalidAfterReopen": [],
+      "saved": true
+    },
+    {
+      "key": "guide",
+      "invalidBefore": [],
+      "invalidAfterReopen": [],
+      "saved": true
+    },
+    {
+      "key": "account",
+      "invalidBefore": [],
+      "invalidAfterReopen": [],
+      "saved": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
